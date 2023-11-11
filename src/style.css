@@ -13,8 +13,39 @@ h1 {
   font-size: 58px;
 }
 
-.container {
-  max-width: 1400px;
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/bigben.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px 200px;
+}
 
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+
+footer p {
+  opacity: 0.7;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+}
+
+.container {
+  /* max-width: 1400px; */
   margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
