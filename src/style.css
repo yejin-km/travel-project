@@ -10,7 +10,7 @@ header {
   background-position: center;
   color: white;
   text-align: center;
-  padding: 280px;
+  padding: 280px 0;
 }
 
 button {
@@ -37,9 +37,13 @@ main {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+section.secondary {
+  background: #f8f8f8;
 }
 
 footer {
@@ -78,10 +82,28 @@ footer li {
   grid-gap: 64px;
 }
 
+.img-responsive {
+  max-width: 100%;
+}
+
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
 
 .grid-2-columns-first-narrow {
   grid-template-columns: 1fr 2fr;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-2-columns-first-narrow {
+    grid-template-columns: 1fr;
+  }
 }
