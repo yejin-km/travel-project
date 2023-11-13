@@ -13,6 +13,21 @@ header {
   padding: 280px;
 }
 
+button {
+  margin: 30px;
+  padding: 15px 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-color: white;
+  border: white;
+  border-radius: 3px;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
 h1 {
   font-size: 58px;
 }
