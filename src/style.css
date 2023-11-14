@@ -179,6 +179,22 @@ footer li {
     font-size: 35px;
   }
 
+  h2 {
+    font-size: 20px;
+  }
+
+  main h3 {
+    font-size: 30px;
+  }
+
+  section {
+    padding: 30px;
+  }
+
+  .secondary {
+    padding: 10px;
+  }
+
   .grid-2-columns {
     grid-template-columns: 1fr;
   }
